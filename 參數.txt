@@ -1,0 +1,24 @@
+參數:
+
+192.168.217.100
+
+2016ad
+P@ssw0rd2016ad02
+
+esxiv701
+P@ssw0rdesxiv701
+
+esxiv702
+P@ssw0rdesxiv702
+
+vcsav7
+P@ssw0rdvcsav7
+
+P@ssw0rdvm01
+
+vmcj10217.local
+
+ping -t 192.168.217.11
+
+
+其他不要動只要幫我改一下參數vSwitch1(vMotion)、vSwitch2(Production/Test)、vSwitch3(iSCSI)vmnic要上到下順序排列，然後HostName = "esxiv701.vmcj10217.local"、HostName = "esxiv702.vmcj10217.local"、$vCenterServer = "vcsav7.vmcj10217.local"、IP 改成 192.168.217.x
